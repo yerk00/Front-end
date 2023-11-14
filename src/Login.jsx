@@ -1,28 +1,31 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
-import './Register.css'
+import './Login.css'
 
-export default function Register() {
-  const [nombre, setNombre] = useState('');
-  const [contrasena, setContrasena] = useState('');
-  const navigate = useNavigate();
+export default function Login() {
+    const [nombre, setNombre] = useState('');
+    const [contrasena, setContrasena] = useState('');
+    const navigate = useNavigate();
 
-  const register = async () => {
-      try {
-          const response = await axios.post('http://127.0.0.1:5000/register', {
-              nombre: nombre,
-              contrasena: contrasena,
-          });
-          console.log(response.data);
-      } catch (error) {
-          console.error('Error:', error);
-      }
-  }
+    const login = async () => {
+        try {
+            const response = await axios.post('http://127.0.0.1:5000/login', {
+                nombre: nombre,
+                contrasena: contrasena,
+            });
+            console.log(response.data);
+            if (response.data.message === 'login successful') {
+                navigate('/Home');
+            }
+        } catch (error) {
+            console.error('Error:', error);
+        }
+    }
 
-  const goToHome = () => {
-    navigate('/Login');
-  }
+ /*  const goToHome = () => {
+    navigate('/Home');
+  } */
 
   return (
     <div className='casaCactus'>
@@ -44,13 +47,11 @@ export default function Register() {
           <br />
         </div>
         <div className='botonlogin'>
-          <button onClick={register} className='xd'>Registrarse</button>
+          <button onClick={login} className='xd'>Login</button>
         </div>
         <div className='sesioneslogin'>
           <h3>tienes cuenta?</h3>
-          <div className='rojologin'>
-            <button onClick={goToHome}>inicia sesion</button>
-          </div>
+          
         </div>
       </div>
     </div>
