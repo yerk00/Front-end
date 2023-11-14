@@ -1,0 +1,57 @@
+.gradiente{
+    background: linear-gradient(180deg, #E73539 0%, rgba(213, 43, 30, 0.00) 100%);
+width: 911px;
+height: 156px;  ;
+}
+.casaCactus{
+    width: 911px;
+    height: 982px;
+    
+    flex-shrink: 0;
+    border-radius: 24px 0px 0px 24px;
+background: #F8F0F0;
+}
+.text{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.tituloLogin{
+    color: #000;
+    font-family: Saira Condensed;
+    font-size: 20px;
+}
+.cosaslogin{
+color: rgba(26, 23, 23, 0.38);
+font-family: Inter;
+font-size: 24px;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+align-content: center;
+justify-content: flex-end;
+}
+.botonlogin{
+display: flex;
+flex-wrap: nowrap;
+justify-content: center;
+font-size: 30px;
+border-radius: 40px;
+}
+.xd{
+    width: 465px;
+    height: 79px;
+    background-color: #E73539;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sesioneslogin{
+    color: rgba(26, 23, 23, 0.38);
+    font-family: Inter;
+    font-size: 20px;
+}
+.rojologin{
+    color: #E73539;
+}
