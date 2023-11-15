@@ -17,9 +17,17 @@
     padding: 10px;
     padding-left: 80%;
     /* position: relative; */
+    justify-content: center;
+    align-items: flex-start;
+    
+    
 }
 .navbar button {
-    margin-left: 10px; 
+  
+  justify-content: center;
+  align-items: flex-start;
+  
+   
   }
 
   
