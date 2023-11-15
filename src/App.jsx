@@ -18,6 +18,14 @@ function App() {
         <Route path="/Registro" element={<PageRegister/>} />
         <Route path="/Home" element={<Home/>} />
         <Route path="/Login" element={<PageLogin/>} />
+ {/*        <Route path="/Gestion" element={<Gestion/>} />
+        <Route path="/Instructores" element={<Instructores/>} />
+        <Route path="/Informacion" element={<Informacion/>} />
+        <Route path="/Casilleros" element={<Casilleros/>} />
+        <Route path="/Productos" element={<Productos/>} />
+        <Route path="/Instructores" element={<Instructores/>} /> */}
+        
+
         <Route path="/" element={
           <>
             <Navbar />

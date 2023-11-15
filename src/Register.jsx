@@ -49,7 +49,7 @@ export default function Register() {
         <div className='sesioneslogin'>
           <h3>tienes cuenta?</h3>
           <div className='rojologin'>
-            <button onClick={goToHome}>inicia sesion</button>
+            <button onClick={goToHome} className='boton-inicio'>inicia sesion</button>
           </div>
         </div>
       </div>

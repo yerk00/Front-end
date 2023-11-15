@@ -32,19 +32,17 @@ export default function Login() {
       <div className='text'>
         <div className='gradiente'></div>
         <div className='tituloLogin'>
-          <h1>CREAR CUENTA</h1>
+          <h1>LOGIN</h1>
         </div>
         <div className='cosaslogin'>
-          <div>
+          <div className='nombre'>
             <label>Nombre:</label>
-            <input type="text" value={nombre} onChange={e => setNombre(e.target.value)} placeholder="Nombre" />
+            <input className='input-name' type="text" value={nombre} onChange={e => setNombre(e.target.value)} placeholder="Nombre" />
           </div>
-          <br />
-          <div>
+          <div className='contrasena'>
             <label>Contraseña:</label>
-            <input type="password" value={contrasena} onChange={e => setContrasena(e.target.value)} placeholder="Contraseña" />
+            <input className='pass' type="password" value={contrasena} onChange={e => setContrasena(e.target.value)} placeholder="Contraseña" />
           </div>
-          <br />
         </div>
         <div className='botonlogin'>
           <button onClick={login} className='xd'>Login</button>

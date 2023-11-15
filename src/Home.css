@@ -1,0 +1,13 @@
+.navbar{
+    background-color: rgba(0, 0, 0, 0.499);
+    position: sticky;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    padding-left: 80%;
+  
+    /* position: relative; */
+}
+.navbar button {
+    margin-left: 10px; 
+  }

@@ -1,20 +1,19 @@
 .contenedor {
-    width: 1200px;
-    /* height: 600px; */
-    height: 100%;
-    top: 0;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    position: relative;
-    display: flex;
-    /* margin-right: 5px; */
-  }
-  
-  .fotoHombre {
-    width: 615px;
-    height: 982px;
-    flex-shrink: 0;
-    object-fit: cover;
-  }
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  width: 100%;
+  height: 100%; 
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+}
+
+.fotoHombre {
+  width: 100%;
+  height: auto; 
+  object-fit: cover; 
+}
+
 
   .titulo1{
 font-size: 23px;
