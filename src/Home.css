@@ -1,13 +1,51 @@
-.navbar{
-    background-color: rgba(0, 0, 0, 0.499);
-    position: sticky;
-    top: 0;
-    right: 0;
-    padding: 10px;
-    padding-left: 80%;
-  
-    /* position: relative; */
+
+body{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+    height: 100vh;
 }
-.navbar button {
-    margin-left: 10px; 
+#root{
+    margin: 0%;
+    display: flex;
+    flex: 1;
+}
+.HomeBar{
+    display: flex;
+    flex: 1;
+    background-color: #202020;
+}
+.TopHomeBar{
+    background-color: #272727;
+    height: 12%;
+    width: 80%;
+    border-bottom: 5px solid white;
+    border-left: 5px solid white;
+    border-right: 5px solid white;
+}
+.Homenavbar{
+  width: 20%;
+  background-color: #272727;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start; 
+  border-right: 5px solid white;
+}
+.Homenavbar button {
+    display: block;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 20px 10px;
+    width: calc(100% - 20px);
+  }
+  .Homenavbar h1{
+    color: white;
+    font-size: 30px;
+    margin: 40px 0px;
+  }
+  .Homenavbar span{
+    color: red;
   }
