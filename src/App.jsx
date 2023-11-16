@@ -7,6 +7,12 @@ import PageLogin from './PageLogin.jsx';
 import Home from './Home.jsx'
 import Navbar from './Components/Nav.jsx'  // Importa el componente Navbar
 import './App.css'
+import { Casilleros } from './Modulos/Casilleros';
+import { Gestion } from './Modulos/Gestion';
+import { Informacion } from './Modulos/Informacion';
+import { Instructores } from './Modulos/Instructores';
+import { Productos } from './Modulos/Productos';
+import { Resenas } from './Modulos/Resenas';
 
 
 function App() {
