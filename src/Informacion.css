@@ -1,0 +1,96 @@
+.UFC {
+    background-color: rgba(26, 23, 23, 0.38);;
+}
+.Somosufc {
+    text-align: justify;
+}
+.Titulo h1{
+    font-size: 125px;
+    color: red;
+}
+.Somosufc h1{
+    color: silver;
+    font-size: 50px;
+}
+.Somosufc label{
+    margin: 0 0 10px;
+}
+.entrenadores{
+    text-align: justify;
+}
+.entrenadores h1{
+    color: silver;
+    font-size: 50px;
+}
+.programas{
+    text-align: justify;
+}
+.programas h1{
+    color: silver;
+    font-size: 50px;
+}
+.equipamiento{
+    text-align: justify;
+}
+.equipamiento h1{
+    color: silver;
+    font-size: 50px;
+}
+.horarios{
+    text-align: justify;
+}
+.horarios h1{
+    color: silver;
+    font-size: 50px;
+}
+.horarios h2{
+    font-size: 18.75px;
+}
+.UFC label{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.63043em;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.Somosufc img{
+    background-image: url('../public/ufcgym1.jpg');
+    width: 555px; 
+    height: 370px;
+    display: block; 
+    margin: 0 auto;
+}
+.entrenadores img{
+    background-image: url('../public/ufcgym2.jpg');
+    display: block; 
+    margin: 0 auto;
+    width: 555px; 
+    height: 370px;
+}
+.programas img{
+    background-image: url('../public/ufcgym3.jpg');
+    text-align: center;
+    display: block; 
+    margin: 0 auto;
+    width: 555px; 
+    height: 370px;
+}
+.equipamiento img{
+    background-image: url('../public/ufcgym4.jpg');
+    text-align: center;
+    display: block; 
+    margin: 0 auto;
+    width: 555px; 
+    height: 370px;
+}
+.horarios img{
+    background-image: url('../public/ufcgym5.jpg');
+    text-align: center;
+    display: block; 
+    margin: 0 auto;
+    width: 555px; 
+    height: 650px;
+}
