@@ -23,9 +23,9 @@ export default function Login() {
         }
     }
 
- /*  const goToHome = () => {
-    navigate('/Home');
-  } */
+    const goToHome = () => {
+    navigate('/Registro');
+  }
 
   return (
     <div className='casaCactus'>
@@ -48,7 +48,7 @@ export default function Login() {
           <button onClick={login} className='xd'>Login</button>
         </div>
         <div className='sesioneslogin'>
-          <h3>tienes cuenta?</h3>
+          <button className='page-registro' onClick={goToHome}>no tienes cuenta?</button>
           
         </div>
       </div>

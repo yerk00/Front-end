@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@700&display=swap');
 .gradiente{
     background: linear-gradient(180deg, #E73539 0%, rgba(213, 43, 30, 0.00) 100%);
     width: 911px;
@@ -18,7 +19,7 @@
 .tituloLogin{
     color: #000;
     font-family: Saira Condensed;
-    font-size: 20px;
+    font-size: 10px;
 }
 .cosaslogin{
 color: rgba(26, 23, 23, 0.38);
@@ -61,4 +62,28 @@ border-radius: 40px;
     font: inherit;
     cursor: pointer; 
     color: inherit;
+}
+.input-name, .pass, .correo-campo {
+    background-color: transparent; /* Esto hace que el fondo sea transparente */
+    border: none;
+    border-bottom: 1px solid rgb(173, 169, 169);
+    color: #7c7b7b;
+    margin-left: 20px;
+}
+.input-name:focus, .pass:focus, .correo-.correo-campo {
+    outline: none;
+}
+.input-name::placeholder, .pass::placeholder, .correo-campo::placeholder {
+    color:rgb(173, 169, 169);
+}
+
+.input-name{
+    margin-left: 50px;
+}
+.nombre, .contrasena, .correo-electronico{
+    margin-bottom: 30px;
+    color: rgba(255, 255, 255, 0.827);
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
 }

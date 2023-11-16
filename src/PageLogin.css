@@ -1,3 +1,5 @@
+/*importashones del font*/
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@700&display=swap');
 .contenedor {
     width: 1200px;
     /* height: 600px; */
@@ -17,11 +19,14 @@
   }
 
   .titulo1{
-font-size: 23px;
+  font-size: 23px;
   position: absolute;
   top: 35%;
   transform: translateY(-50%);
-  color: orange; 
+  font-family: 'Saira Condensed', sans-serif;
+  color:white;
+  font-style: normal;
+  font-weight: 700;
   display: flex;
   text-align:left ;
   left: 30px;
@@ -32,7 +37,7 @@ font-size: 23px;
     position: absolute;
     top: 80%;
     transform: translateY(-50%);
-    color: orange; 
+    color: rgb(244, 241, 235); 
     text-align:left ;
     font-size: 15px;
     left: 30px;

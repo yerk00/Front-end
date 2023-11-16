@@ -12,7 +12,7 @@ export default function Nav() {
     <div className='full-screen'>
       <div className='navbar'>
         <button className='boton-register' onClick={() => navigate('/Registro')}>Iniciar sesión</button>
-        <button onClick={() => navigate('/Informacion')}>Informacion</button>
+        <button className='boton-informacion'onClick={() => navigate('/UFC')}>Informacion</button>
         <img src={image} alt='' className='logo'/>
       </div>
       <div className='imagen'>

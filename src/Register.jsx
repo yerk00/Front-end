@@ -6,6 +6,7 @@ import './Register.css'
 export default function Register() {
   const [nombre, setNombre] = useState('');
   const [contrasena, setContrasena] = useState('');
+  const [correo, setCorreo] = useState('');
   const navigate = useNavigate();
 
   const register = async () => {
@@ -13,6 +14,7 @@ export default function Register() {
           const response = await axios.post('http://127.0.0.1:5000/register', {
               nombre: nombre,
               contrasena: contrasena,
+              correo: correo,
           });
           console.log(response.data);
       } catch (error) {
@@ -32,16 +34,18 @@ export default function Register() {
           <h1>CREAR CUENTA</h1>
         </div>
         <div className='cosaslogin'>
-          <div>
+          <div className='nombre'>
             <label>Nombre:</label>
-            <input type="text" value={nombre} onChange={e => setNombre(e.target.value)} placeholder="Nombre" />
+            <input className='input-name' type="text" value={nombre} onChange={e => setNombre(e.target.value)} placeholder="Nombre" />
           </div>
-          <br />
-          <div>
+          <div className='contrasena'>
             <label>Contraseña:</label>
-            <input type="password" value={contrasena} onChange={e => setContrasena(e.target.value)} placeholder="Contraseña" />
+            <input className='pass' type="password" value={contrasena} onChange={e => setContrasena(e.target.value)} placeholder="Contraseña" />
           </div>
-          <br />
+          <div className='correo-electronico'>
+            <label>Correo:</label>
+            <input className='correo-campo' type="text" value={correo} onChange={e => setCorreo(e.target.value)} placeholder="Correo electronico" />
+          </div>
         </div>
         <div className='botonlogin'>
           <button onClick={register} className='xd'>Registrarse</button>
